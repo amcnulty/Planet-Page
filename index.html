@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Title and Icon -->
+        <link rel="icon" href="res/icon/ring_planet.png" type="image/x-icon">
+        <title>Planetary Real Estate</title>
+        
+        <!-- This sets up the site to be optimized for mobile devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Link the CSS stylesheet -->
+        <link rel="stylesheet" type="text/css" href="styling/stylesheet.css">
+
+        <!--Link the CSS for the image slider -->
+        <link rel="stylesheet" type="text/css" href="styling/js-image-slider.css">
+
+        <!--Link the javascript for the image slider -->
+        <script src="scripts/js-image-slider.js" type="text/javascript"></script>
+        
+        <link rel="stylesheet" media="(min-width: 1050px)" href="styling/non-mobile.css">
+        <link rel="stylesheet" media="(max-width: 1050px)" href="styling/mobile.css">
+    </head>
+    <body>
+        <div id="header">
+            <img id="bigLogo" src="res/header/logo.png"/>
+        </div>
+        <div id="topImg">
+            <img src="res/animated/spinning_moon.gif"/>
+        </div>
+        <div id="sliderFrame">
+            <div id="slider">
+                <img src="res/images/img1.jpg" alt="Welcome to the home of Planetary Real Estate!" />
+                <img src="res/images/img2.jpg" alt="Mars Colonies." />
+                <img src="res/images/img3.jpg" alt="Ice Worlds." />
+                <img src="res/images/img4.jpg" alt="Thriving Communities." />
+                <img src="res/images/img5.jpg" alt="We are one with nature."/>
+                <img src="res/images/img6.jpg" alt="Find a home for the right price."/>
+                <img src="res/images/img7.jpg" alt="Come exploring with us!"/>
+            </div>
+        </div>
+        <div id="fullMainBody">
+            <div id="mainBody">
+                <div id="topContainer">
+                        <nav>
+                            <ul>
+                                <li>
+                                    <button id="homeButton" class="navButton">
+                                        <span class="buttonText">HOME</span>
+                                        <img src="res/buttons/home_button_icon.png"/>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button id="aboutButton" class="navButton">
+                                        <span class="buttonText">ABOUT US</span>
+                                        <img src="res/buttons/about_button_icon.png"/>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button id="propertiesButton" class="navButton" id="propertiesButton">
+                                        <span class="buttonText">PROPERTIES</span>
+                                        <img src="res/buttons/properties_button_icon.png"/>
+                                    </button>
+                                </li>
+                                <li>
+                                    <button id="contactButton" class="navButton">
+                                        <span class="buttonText">CONTACT US</span>
+                                        <img src="res/buttons/contact_button_icon.png"/>
+                                    </button>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div id="quoteBox">
+                                <h1 id="quote">"Space is where all humans will live in the future"</h1>
+                                <p>PRE CEO - Bobert Boberson</p>
+                        </div>
+                </div>
+                <div id="bodyInfo">
+                    <div id="homeContent">
+                        <div class="textBackground">
+                                <div class="text">
+                                        <h2>Time To Settle Down In Space!</h2>
+                                        <p>Leave your earthly ties behind you and come live out in the stars! Take a chance and see what is out there for you. The human race must spread out into the solar system to keep our species alive for the ages.</p>
+                                        <div id="textandimg">
+                                                <p>Since the dawn of humanity we have sought out new lands and pushed the boundry of human knowledge. In this day and age we still have the same burning desire to be the first to travel to unknown destinations. We long to draw the maps for the furture so they can follow in our footsteps.</p>
+                                                <img src="res/images/sailboat.jpg"/>
+                                        </div>
+                                        <p>Humanity needs to spread into space to keep our species alive. It is a simple fact that every living thing on a planet can be destroyed by a comet, asteroid, or natural desaster. If that were to happen to Earth there would be nothing left of the human race. This is why it is so important to spead out into space.</p>
+                                        <h2>A Quote From Carl Sagan:</h2>
+                                        <p>"Look again at that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar," every "supreme leader," every saint and sinner in the history of our species lived there-on a mote of dust suspended in a sunbeam."</p>
+                                </div>
+                        </div>
+                    </div>
+                    <div id="aboutContent">
+                        <div class="textBackground">
+                                <div class="text">
+                                        <h2>About Us</h2>
+                                        <p>Since we opened our doors twenty-five years ago Planetary Real Estate has been providing top level service to home buyers on other worlds. Through the years we have learned that a great customer experience leads to a smooth transaction. This year we are proud to announce that we are partnering with HomeWorlds inc. <span class="verdanaFont">(</span>an off-world construction company<span class="verdanaFont">)</span> to help them market and sell their beautiful homes across the solar system.</p>
+                                        <h2>Our Mission</h2>
+                                        <p>"To provide quality housing for off-world humans through a positive and affordable transaction."</p>
+                                        <h2>What We Provide</h2>
+                                        <ul>
+                                                <li>Affordable Housing</li>
+                                                <li>Unique Real Estate</li>
+                                                <li>Great Customer Service</li>
+                                        </ul>
+                                </div>
+                        </div>
+                    </div>
+                    <div id="propertiesContent">
+                        <h2>Properties For Sale</h2>
+                        <ul id="listings">
+                            <li>
+                                <div class="flipBox"><span class="letteri">i</span><span class="listingInfo"><img src="res/properties/moon_home.png"/>This is a really awesome moon house that overlooks a huge crater! Be the first of your friends to move out here because homes are selling fast!!</span></div>
+                                <p>A wonderful house on the moon!</p>
+                                <h3>$599,425,000,000</h3>
+
+                            </li>
+                            <li>
+                                <div class="flipBox"><span class="letteri">i</span><span class="listingInfo"><img src="res/properties/mercury_bunker.png"/>We hope you like it hot if you are going to live here! This bunker will make it through the rough times in the solar system.</span></div>
+                                <p>Warm Mercury bunker for sale</p>
+                                <h3>$799,825,800,000</h3>
+                            </li>
+                            <li>
+                                <div class="flipBox"><span class="letteri">i</span><span class="listingInfo"><img src="res/properties/venus.png"/>Don't let the thick whirling clouds fool you, this is a wonderful plot of land! No one could beat the price point we are offering!</span></div>
+                                <p>Windy acerage on Venus<p>
+                                <h3>$375,119,000,000</h3>
+                            </li>
+                            <li>
+                                <div class="flipBox"><span class="letteri">i</span><span class="listingInfo"><img src="res/properties/europa_house.png"/>Come chill out at this picturesque estate. One of the most beautiful spots we have to offer! Act fast before the locals take up residence.</span></div>
+                                <p>Europan home with epic views!</p>
+                                <h3>$1,675,900,000,000</h3>
+                            </li>
+                            <li>
+                                <div class="flipBox"><span class="letteri">i</span><span class="listingInfo"><img src="res/properties/mars_shelter.png"/>Built during the second wave of settlers to Mars, this shelter has stood the test of time. Anyone looking for a reminder of the old times should move into this rustic-feeling residence. There truly is a lot of history here!</span></div>
+                                <p>Classic Mars shelter</p>
+                                <h3>$698,315,068,000</h3>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="contactContent">
+                            <h2>We Would Love To Hear From You.</h2>
+                        <div class="inputBackground">
+                                <div class="inputContainNonMobile">
+                                        <input class="input" placeholder="Your name" id="username"></input><br><br>
+                                        <input class="input" placeholder="Your email" id="email"></input><br><br>
+                                        <textarea name="comment" rows="15" class="comment" placeholder="Your comment.." id="comment"></textarea><br><br><br>
+                                        <button id="submitButton" class="button">SUBMIT COMMENT</button>
+                                        <h2 id="thankyou">Thank you for your interest in Planetary Real Estate! You will be contacted shortly.</h2>
+                                </div>
+                                <div class="inputContainMobile">
+                                        <h4 style="text-decoration: underline">Reach us by phone at:</h4>
+                                        <p>ph: 555-555-5555</p>
+                                        <h4 style="text-decoration: underline">Reach us by email at:</h4>
+                                        <p>InhabitNewWorlds@gmail.com</p>
+                                        <h4 style="text-decoration: underline">Mailing address:</h4>
+                                        <p>31415 Pi Boulevard</p>
+                                        <p>Lincolin, Nebraska 68508</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <div id="socialMedia">
+                    <p>Check us out on social media</p>
+                    <p>
+                        <a href="https://www.facebook.com/"><img src="res/icon/social_media_icons/facebook.png" /></a>
+                        <a href="https://www.flickr.com/"><img src="res/icon/social_media_icons/flickr.png" /></a>
+                        <a href="https://plus.google.com/up/accounts/upgrade/?continue=https://plus.google.com/"><img src="res/icon/social_media_icons/google_plus.png" /></a>
+                        <a href="https://instagram.com/"><img src="res/icon/social_media_icons/instagram.png" /></a>
+                        <a href="https://www.linkedin.com/"><img src="res/icon/social_media_icons/linkedin.png" /></a>
+                        <a href="https://www.pinterest.com/"><img src="res/icon/social_media_icons/pintrest.png" /></a>
+                        <a href="https://www.tumblr.com/"><img src="res/icon/social_media_icons/tumblr.png" /></a>
+                        <a href="https://twitter.com/"><img src="res/icon/social_media_icons/twitter.png" /></a>
+                        <a href="https://www.youtube.com/"><img src="res/icon/social_media_icons/youTube.png" /></a>
+                    </p>
+                </div>
+                <div id="phoneandemail"><p>ph. 555-555-5555</p><p>email: InhabitNewWorlds@gmail.com</p><p>address: 31415 pi boulevard</p><p>Lincolin, Nebraska 68508</p></div>
+            </div>
+        </div>
+        <script type="text/javascript" src="scripts/app.js"></script>
+    </body>
+</html>

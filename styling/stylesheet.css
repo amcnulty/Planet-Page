@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Future";
+  src: url(../res/fonts/virgo.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Galaxy";
+  src: url(../res/fonts/DISTGRG_.ttf) format("truetype"); 
+}
+
+@font-face {
+  font-family: "Origin";
+  src: url(../res/fonts/Origicide.ttf) format("truetype"); 
+}
+
+@font-face {
+  font-family: "UnderCover";
+  src: url(../res/fonts/RADIOLAND.ttf) format("truetype"); 
+}
+
+
+html {
+  cursor: url(../res/pointers/pointer.png), auto;
+}
+
+body {
+    margin: 0;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    transition: all .2s;
+}
+
+#fullMainBody {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+#mainBody {
+    position: relative;
+    width: 80%;
+    float: left;
+    background-color: white;
+    color: white;
+    border-radius: 4%;
+    margin-left: 10%;
+    background: rgba(255,255,255,.3);
+}
+
+.navButton {
+    border: none;
+    background: transparent;
+    margin: 5px;
+    font-size: 25px;
+    font-family: Galaxy;
+    cursor:pointer;
+    color: white;
+}
+
+.navButton:hover {
+    font-weight: bold;
+    color: blue;
+}
+
+.navButton:focus {
+  outline: 0;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.verdanaFont {
+  font-family: Verdana;
+}
+
+.buttonText {
+  display: inline-block;
+  vertical-align: top;
+  line-height: normal;
+  padding-top: 19px;
+}
+
+#bodyInfo {
+  text-align: center;
+  width: 100%;
+  float: left;
+  border-top: 2px dotted black;
+  font-family: Future;
+}
+
+#listings li h3 {
+  text-decoration: underline;
+  font-family: Verdana;
+}
+
+#footer {
+  width: 100%;
+  float: left;
+  background-color: black;
+  border-top: 5px solid grey;
+  border-top-right-radius: 8%;
+  border-top-left-radius: 15%;
+  opacity: .8;
+  text-align: center;
+  font-family: Origin;
+  font-size: 1.2em;
+}
+
+#socialMedia {
+  width: 50%;
+  float: left;
+  color: white;
+}
+
+#phoneandemail {
+  width: 50%;
+  float: right;
+  color: white;
+}
+
+#thankyou {
+  display: none;
+}
